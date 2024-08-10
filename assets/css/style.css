@@ -40,6 +40,47 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 
+/* Basic styling for the navbar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for navbar links */
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1px 1px;
+  margin: 0 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the Resume button */
+.navbar ul li a.resume-btn {
+  background-color: #ff3a00; /* Your theme color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Hover effect for Resume button */
+/* .navbar ul li a.resume-btn:hover {
+  background-color: #e33200; /* Slightly darker shade of your theme color */
+} */
+
+/* Hover effect for other links */
+.navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+
+
 /* pre loader start */
 .loader-container {
   position: fixed;
@@ -430,7 +471,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #a2a1a9;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -1227,3 +1268,62 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.certificates{
+  background-color: #6531aa ;
+}
+
+.certificates-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.certificate-card {
+  background-color: #6531aa; /* Bright orange background */
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.certificate-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.certificate-card .btn {
+  background-color: #fff;
+  color: #ff3a00;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.certificate-card .btn:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.viewall {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .certificates-container {
+    grid-template-columns: 1fr;
+  }
+}
