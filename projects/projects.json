@@ -48,15 +48,5 @@
       "view": "https://viatours-code-kalyaan.netlify.app/",
       "code": "https://github.com/adityaks-lts/Code-Kalyaan-2345"
     }
-  },
-  {
-    "name": "Quizz App",
-    "desc": "Quizz App based on mern stack",
-    "image": "jspro",
-    "category": "basicweb",
-    "links": {
-      "view": "https://github.com/rambedade/Quizz",
-      "code": "https://github.com/rambedade/Quizz"
-    }
   }
 ]
