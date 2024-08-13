@@ -1,7 +1,7 @@
 [
   {
     "name": "Stay and Lift",
-    "desc": "This Prooject wellness and fitness application",
+    "desc": "This Prooject wellness and fitness application TechStacks- React js,Firebase, Redux,Chakra UI",
     "image": "stayfit",
     "category": "mern",
     "links": {
@@ -11,7 +11,7 @@
   },
   {
     "name": "Furni_Flex",
-    "desc": "Full-Stack Furniture Selling E-commerce app",
+    "desc": "Full-Stack Furniture Selling E-commerce app      Techstacks- React, redux, json-server, chakra-ui",
     "image": "furniflex",
     "category": "mern",
     "links": {
@@ -21,7 +21,7 @@
   },
   {
     "name": "TaptiBnb",
-    "desc": "Airbnb clone project built ion front end ",
+    "desc": "Airbnb clone project built ion front end  Techstacks- Javascript,Bootstrap,json-server, Tailwind CSS ",
     "image": "tapti",
     "category": "mern",
     "links": {
@@ -31,7 +31,7 @@
   },
   {
     "name": "Lenovo-Clone",
-    "desc": "Lenovo's website is useful for marketing and selling a wide range of consumer electronics, personal computers",
+    "desc": "Lenovo's website is useful for marketing and selling a wide range of consumer electronics, personal computers .        Techstacks-CSS, Bootstrap, HTML5, SCSS, font-awesome ,google-fonts figma",
     "image": "lenovo",
     "category": "mern",
     "links": {
@@ -41,7 +41,7 @@
   },
   {
     "name": "Viatours",
-    "desc": "Viatours is a web component designed to provide a sleek and dynamic user experience for exploring travel options",
+    "desc": "Viatours is a web component designed to provide a sleek and dynamic user experience for exploring travel options.    Techstacks-CSS, Bootstrap, HTML5, SCSS, font-awesome ,google-fonts figma     ",
     "image": "viatours",
     "category": "lamp",
     "links": {
